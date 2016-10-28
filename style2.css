@@ -14,20 +14,24 @@ body{
 
 #content .menu .material-icons {
 	color: #FFFFFF;
-	font-size: 41px;
+	font-size: 32px;
 	float: right;
-	margin-top: 6px;
-	margin-right: 6px;
+	margin-top: 13px;
+	margin-right: 11px;
 }
 #content .menu-text {
-	color:#FFFFFF;
 	position: absolute;
 	right: 52px;
 	font-variant: small-caps;
 	top: 18px;
+	color:white;
 }
 
+.menu{
+	animation-delay: 4s;
+}
 .news, .some_text, .contact{
+	font-size:10px;
 	transform: rotate(90deg);
 	text-transform: uppercase;
 	transform-origin: left top 0;
@@ -36,40 +40,41 @@ body{
 
 .news{
 	position: absolute;
-	top: 68px;
-	right: -23px;
+	top: 54px;
+	right: -8px;
 }
 
 .some_text{
 	position: absolute;
-	top: 130px;
-	right: -60px;
+	top: 104px;
+	right: -35px;
 }
 
 .contact{
 	position: absolute;
-	top: 231px;
-	right:-45px;
+	top: 180px;
+	right:-27px;
+	
 }
 
 .fa-facebook{
 	position:absolute;
-	top:319px;
-	right:24px;
+	top:243px;
+	right:18px;
 	color:white;
 }
 
 .fa-twitter{
 	position:absolute;
-	top:350px;
-	right:19px;
+	top:286px;
+	right:12px;
 	color:white;
 }
 
 .fa-pinterest{
 	position:absolute;
-	top:384px;
-	right:20px;
+	top:330px;
+	right:14px;
 	color:white;
 }#content .left {
 	float: left;

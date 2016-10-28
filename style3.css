@@ -1,11 +1,14 @@
 @charset "UTF-8";
+a:visited {
+	color: white;
+}
 .menu{
 	background: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%) center center fixed;
 	z-index:20;
 }
 .menu .material-icons {
 	color: #FFFFFF;
-	font-size: 32px;
+	font-size: 28px;
 	float: right;
 	margin-top: 13px;
 	margin-right: 11px;
@@ -47,21 +50,21 @@
 .fa-facebook{
 	position:absolute;
 	top:243px;
-	right:18px;
+	right:24px;
 	color:white;
 }
 
 .fa-twitter{
 	position:absolute;
-	top:286px;
-	right:12px;
+	top:270px;
+	right:20px;
 	color:white;
 }
 
 .fa-pinterest{
 	position:absolute;
-	top:330px;
-	right:14px;
+	top:300px;
+	right:20px;
 	color:white;
 }
 

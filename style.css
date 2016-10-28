@@ -1,4 +1,5 @@
 @charset "UTF-8";
+a:visited {color:#ffffff;} 
 video#bgvid { 
     position: fixed;
     top: 50%;
@@ -107,20 +108,20 @@ video#bgvid {
 	right:-27px;
 }
 
-.fa-facebook{
+.fa-times{
 	position:absolute;
-	top:243px;
-	right:18px;
+	top:50px;
+	right:15px;
 }
 
 .fa-twitter{
 	position:absolute;
-	top:286px;
-	right:12px;
+	top:270px;
+	right:20px;
 }
 
 .fa-pinterest{
 	position:absolute;
-	top:330px;
-	right:14px;
+	top:300px;
+	right:20px;
 }

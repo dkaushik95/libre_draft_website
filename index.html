@@ -22,23 +22,17 @@
   </head>
   <body style="color:white">
   	<video playsinline muted loop poster="images/black.png" id="bgvid" >
-        <source src="images/demo.mp4" type="video/mp4">
+        <source src="media/Master.mp4" type="video/mp4">
     </video>
     <div id="content">
     	<div class="menu animated fadeInRight">
-        	<p class="menu-text ">Menu</p><i class="material-icons">menu</i>
-            <div class="links">
-            	<p class="news">News</p>
-                <p class="some_text">Some text</p>
-                <p class="contact">contact</p>
-                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
-            </div>
+        	<i class="material-icons">menu</i>
         </div>
         <div class="button">
         	<img id="button" src="images/play-button.png" alt="">
+            
         </div>
+        <img id="clear" src="images/clear.png" style="margin-left: 96.7%; margin-top: 4%; position: absolute;">
     </div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.2.min.js"></script>
@@ -50,8 +44,13 @@
             var button = $('#button');
 			button.click(function(){
 				button.fadeOut();
-				$("#bgvid").trigger("play");	
+				$("#bgvid").trigger("play");
 			});
+            var button2 = $('#clear');
+            button2.click(function(){
+                button2.fadeOut();
+                location.href = "three.html";  
+            });
 				
         });
     </script>

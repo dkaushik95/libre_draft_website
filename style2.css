@@ -60,21 +60,21 @@ body{
 .fa-facebook{
 	position:absolute;
 	top:243px;
-	right:18px;
+	right:24px;
 	color:white;
 }
 
 .fa-twitter{
 	position:absolute;
-	top:286px;
-	right:12px;
+	top:270px;
+	right:20px;
 	color:white;
 }
 
 .fa-pinterest{
 	position:absolute;
-	top:330px;
-	right:14px;
+	top:300px;
+	right:20px;
 	color:white;
 }#content .left {
 	float: left;
@@ -94,7 +94,7 @@ body{
 	color: #FFFFFF;
 	text-decoration: none;
 	margin-left: 14px;
-	border: 2px solid #FFFFFF;
+	border: 3px solid rgba(0,0,0,0);
 	padding-left: 11px;
 	padding-top: 7px;
 	padding-right: 11px;

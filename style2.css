@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body{
+	margin:0;
+	padding:0;
+		
+}
+#bg img {
+	width: 100%;
+	position: fixed;
+	z-index:-99;
+	top:0;
+	left:0;
+}
+
+#content .menu .material-icons {
+	color: #FFFFFF;
+	font-size: 41px;
+	float: right;
+	margin-top: 6px;
+	margin-right: 6px;
+}
+#content .menu-text {
+	color:#FFFFFF;
+	position: absolute;
+	right: 52px;
+	font-variant: small-caps;
+	top: 18px;
+}
+
+.news, .some_text, .contact{
+	transform: rotate(90deg);
+	text-transform: uppercase;
+	transform-origin: left top 0;
+	color:white;
+}
+
+.news{
+	position: absolute;
+	top: 68px;
+	right: -23px;
+}
+
+.some_text{
+	position: absolute;
+	top: 130px;
+	right: -60px;
+}
+
+.contact{
+	position: absolute;
+	top: 231px;
+	right:-45px;
+}
+
+.fa-facebook{
+	position:absolute;
+	top:319px;
+	right:24px;
+	color:white;
+}
+
+.fa-twitter{
+	position:absolute;
+	top:350px;
+	right:19px;
+	color:white;
+}
+
+.fa-pinterest{
+	position:absolute;
+	top:384px;
+	right:20px;
+	color:white;
+}#content .left {
+	float: left;
+	position: relative;
+	top: 164px;
+	left: 135px;
+	width: 431px;
+}
+#content .left h1 {
+	color: #FFFFFF;
+}
+#content .left p {
+	color: #FFFFFF;
+	animation-delay:1s;
+}
+.left .buttons a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 14px;
+	border: 2px solid #FFFFFF;
+	padding-left: 11px;
+	padding-top: 7px;
+	padding-right: 11px;
+	padding-bottom: 5px;
+	margin-top:10px;
+	animation-delay: 4s;
+}
+
+.left .buttons{
+	padding-top:20px;
+}
+
+.left .buttons a:hover{
+	border: 3px solid #FFFFFF;
+}

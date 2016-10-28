@@ -1,0 +1,118 @@
+@charset "UTF-8";
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#content .button img {
+	position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 70px;
+   margin-top: -35px; /* Half the height */
+   margin-left: -35px;
+}
+
+#content{
+	
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+.menu{
+	float:right;
+}
+
+.button{
+	width: 100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#content .menu .material-icons {
+	color: #FFFFFF;
+	font-size: 41px;
+	float: right;
+	margin-top: 6px;
+	margin-right: 6px;
+}
+#content .menu-text {
+	position: absolute;
+	right: 52px;
+	font-variant: small-caps;
+	top: 18px;
+}
+
+.news, .some_text, .contact{
+	transform: rotate(90deg);
+	text-transform: uppercase;
+	transform-origin: left top 0;
+}
+
+.news{
+	position: absolute;
+	top: 48px;
+	right: -23px;
+}
+
+.some_text{
+	position: absolute;
+	top: 99px;
+	right: -60px;
+}
+
+.contact{
+	position: absolute;
+	top: 191px;
+	right:-45px;
+}
+
+.fa-facebook{
+	position:absolute;
+	top:289px;
+	right:24px;
+}
+
+.fa-twitter{
+	position:absolute;
+	top:326px;
+	right:19px;
+}
+
+.fa-pinterest{
+	position:absolute;
+	top:361px;
+	right:20px;
+}

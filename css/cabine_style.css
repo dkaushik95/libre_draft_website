@@ -1,9 +1,14 @@
 .background img{
-	width: 100%;
 	position: fixed;
 	top: 0;
-	left: 0;
+	right: 0;
 	z-index: -1;
+}
+.original{
+	width: 100%;
+}
+.smaller{
+	width: 80%;
 }
 
 .menu{
@@ -130,6 +135,41 @@
 	margin-left: 12%;
 }
 .buttons button:hover{
+	background: #000;
+	color: #fff;
+}
+
+.text_pics{
+	width: 48%;
+	position: absolute;
+	top: 7%;
+	left: 4%;
+}
+.text_pics h1{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.text_pics p{
+	font-size: 14px;
+}
+
+.text_pics button{
+	background:    #fff;
+	border:        1px solid #000;
+	color:         #000;
+	display:       inline-block;
+	padding:       8px 20px;
+	text-align:    center;
+	text-shadow:   none;
+	transition: all 0.2s ease-in-out 0s;
+	text-transform: uppercase;
+	position: fixed;
+    bottom: 6%;
+    left: 5%;
+	animation-delay: 4s;
+}
+
+.text_pics button:hover{
 	background: #000;
 	color: #fff;
 }

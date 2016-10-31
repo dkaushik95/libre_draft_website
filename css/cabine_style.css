@@ -1,5 +1,6 @@
 .background img{
 	position: fixed;
+	width: 100%;
 	top: 0;
 	right: 0;
 	z-index: -1;
@@ -78,19 +79,19 @@
 }
 
 .bb1{
-	position: absolute;
-	top: 5%;
-	left: 5%;
-	width: 30%;
-	animation-delay: 1s;
+	position: fixed;
+    top: -5%;
+    left: -6%;
+    width: 100%;
+    animation-delay: 1s;
 }
 
 .bb2{
-	position: absolute;
-	bottom: 5%;
-	right: 5%;
-	width: 30%;
-	animation-delay: 2s;
+	position: fixed;
+    bottom: -1%;
+    right: -4%;
+    width: 90%;
+    animation-delay: 2s;
 }
 
 .text1{
@@ -172,4 +173,33 @@
 .text_pics button:hover{
 	background: #000;
 	color: #fff;
+}
+
+.img1{
+        position: fixed;
+    width: 25%;
+    top: -13%;
+    right: -3%;
+    z-index: 5;
+}
+.img2{
+    position: fixed;
+    width: 26%;
+    bottom: 4%;
+    right: 0%;
+    z-index: 4;
+}
+.img3{
+	    position: fixed;
+    width: 31%;
+    top: -17%;
+    right: 12%;
+    z-index: 3;
+}
+.img4{
+	    position: fixed;
+    width: 31%;
+    bottom: -2%;
+    right: 20%;
+    z-index: 2;
 }

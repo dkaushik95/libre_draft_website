@@ -6,7 +6,7 @@
 }
 
 .form{
-	position: absolute;
+	position: fixed;
 	top: 1%;
 	left: 4%;
 	width: 70%;
@@ -67,6 +67,7 @@ input[type=radio].css-checkbox {
 							font-weight: normal;
 							vertical-align:middle;
 							cursor:pointer;
+							transition: all 0.2s ease;
 
 						}
 

@@ -125,3 +125,41 @@ video#bgvid {
 	top:300px;
 	right:20px;
 }
+
+.text h1{
+	font-weight: normal;
+	font-size: 26px;
+	color: white;
+}
+.text p{
+	color: white;
+
+}
+.text{
+	width: 31%;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.text button{
+	background:    rgba(0,0,0,0.1);
+	border:        1px solid #fff;
+	color:         #fff;
+	display:       inline-block;
+	padding:       8px 20px;
+	text-align:    center;
+	text-shadow:   none;
+	transition: all 0.1s ease-in-out 0s;
+	text-transform: uppercase;
+	position: relative;
+	top: 15%;
+	left: 5%;
+	animation-delay: 4s;
+}
+.text button:hover{
+	border:        3px solid #fff;
+}
+
+.btn2{
+	margin-left: 12%;
+}

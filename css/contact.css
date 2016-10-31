@@ -51,7 +51,71 @@ input[type="text"]{
 b{
 	text-transform:uppercase;
 }
+.menu{
+	background: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%) center center fixed;
+	z-index:20;
+}
+.menu .material-icons {
+	color: #000;
+	font-size: 28px;
+	float: right;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.menu-text {
+	position: absolute;
+	right: 52px;
+	font-variant: small-caps;
+	top: 18px;
+	color:#000;
+}
 
+.news, .some_text, .contact{
+	font-size:10px;
+	transform: rotate(90deg);
+	text-transform: uppercase;
+	transform-origin: left top 0;
+	color:#000;
+}
+
+.news{
+	position: absolute;
+	top: 54px;
+	right: -8px;
+}
+
+.some_text{
+	position: absolute;
+	top: 104px;
+	right: -35px;
+}
+
+.contact{
+	position: absolute;
+	top: 180px;
+	right:-27px;
+}
+
+.fa-facebook{
+	position:absolute;
+	top:243px;
+	right:24px;
+	color:#000;
+}
+
+.fa-twitter{
+	position:absolute;
+	top:270px;
+	right:20px;
+	color:#000;
+}
+
+.fa-pinterest{
+	position:absolute;
+	top:300px;
+	right:20px;
+	color:#000;
+}
 input[type=radio].css-checkbox {
 							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
 						}

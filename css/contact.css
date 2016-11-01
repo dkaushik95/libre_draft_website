@@ -36,8 +36,8 @@
 	left: -8%;
 }
 .row .col-lg-12 textarea {
-	width: auto;
-	min-width: 88%;
+	width:88%;
+	height:150px;
 	position: relative;
 	border: 1px solid black;
 }

@@ -1,0 +1,51 @@
+.background img{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.left{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 30%;
+	height: 100%;
+	padding-right: 4%;
+
+}
+
+.left h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 8%;
+	padding-top: 10%;
+}
+.left p{
+	padding-top: 0%;
+    padding-left: 10%;
+    padding-right: 9%;
+    padding-bottom: 3%;
+    font-weight: lighter;
+    font-size: 1.26rem;
+}
+
+.links button{
+	padding-top: 0%;
+        padding-left: 33%;
+    padding-right: 35%;
+    padding-bottom: 3%;
+	background:    #fff;
+	color:         #000;
+	display:       block;
+	font-size: 	   13px;
+	text-align:    center;
+}
+.links button:hover{
+	    padding-left: 33%;
+    padding-right: 35%;
+	background:    #000;
+	color:         #fff;
+}

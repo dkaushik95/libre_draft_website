@@ -32,20 +32,41 @@
     font-size: 1.26rem;
 }
 
-.links button{
+.links a{
 	padding-top: 0%;
-        padding-left: 33%;
-    padding-right: 35%;
+    padding-left: 10%;
+    padding-right: 9%;
     padding-bottom: 3%;
 	background:    #fff;
 	color:         #000;
 	display:       block;
 	font-size: 	   13px;
 	text-align:    center;
+	text-decoration:none;
 }
-.links button:hover{
-	    padding-left: 33%;
-    padding-right: 35%;
+.links a:hover{
 	background:    #000;
 	color:         #fff;
 }
+
+.right{
+
+	width: 73%;
+	height: 100%;
+	position: absolute;
+	float: right;
+	top: 0;
+	right: 0;
+	z-index: -2;
+}
+
+.right .row .col-md-3 img{
+	transform-origin: 50% 50%;
+	width: 111%;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.right .row .col-md-3 img:hover{
+	width: 100%;
+}
+

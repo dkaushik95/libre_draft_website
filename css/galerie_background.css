@@ -1,6 +1,6 @@
 .background img{
 	position: fixed;
-	width: 100%;
+	width: 30%;
 	top: 0;
 	left: 0;
 	z-index: -1;
@@ -59,14 +59,80 @@
 	right: 0;
 	z-index: -2;
 }
-
-.right .row .col-md-3 img{
-	transform-origin: 50% 50%;
-	width: 111%;
-	transition: all 0.3s ease-in-out 0s;
+#rig {
+    max-width:100%;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:1%;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
 }
 
-.right .row .col-md-3 img:hover{
-	width: 100%;
+#rig li:hover .rig-img {
+    transform:scale(1.02);
+    filter: grayscale(100%) blur(1px);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: /*#3DC0F1*/ url("../images/add.png") no-repeat center 50%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
 }
 
+@media (max-width: 9000px) {
+    #rig li {
+        width:23%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
